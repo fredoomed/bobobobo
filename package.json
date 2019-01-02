@@ -1,0 +1,25 @@
+{
+  "name": "cherry",
+  "version": "1.0.0",
+  "description": "Guard",
+  "main": "sharder.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"[NPM]: Starting\" && pm2 start sharder.js --name guard && pm2 logs all && echo \"[NPM]: Started PM2\""
+  },
+  "author": "fredoomed - (Discord: fredoomed#2727)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "better-sqlite-pool": "^0.1.2",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.3.0",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.1",
+    "quick.db": "^7.0.0-b17"
+  }
+}
